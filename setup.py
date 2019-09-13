@@ -20,7 +20,7 @@ test_requirements = ['pytest>=3', ]
 setup(
     author="Sena Heydari",
     author_email='sheydari@dosomething.org',
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
+    python_requires='>=3.7',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
@@ -40,6 +40,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/DoSomething/ironheart',
-    version='2019.09.12.00',
+    version='2019.09.12.02',
     zip_safe=False,
 )
